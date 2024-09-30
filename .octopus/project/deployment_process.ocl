@@ -13,7 +13,7 @@ step "check-for-updates" {
             Octopus.Action.Script.ScriptSource = "Package"
             OctopusUseBundledTooling = "False"
         }
-        worker_pool = "hosted-ubuntu"
+        worker_pool = "aws-worker-pool"
 
         container {
             feed = "docker-hub"
