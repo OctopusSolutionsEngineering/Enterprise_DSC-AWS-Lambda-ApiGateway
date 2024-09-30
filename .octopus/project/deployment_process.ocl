@@ -17,7 +17,7 @@ step "check-for-updates" {
 
         container {
             feed = "docker-hub"
-            image = "octopussamples/diff2html"
+            image = "octopusdeploy/worker-tools:6.3.0-ubuntu.22.04"
         }
 
         packages {
